@@ -20,3 +20,5 @@ showYearMinus2();// -1897 fail -> I would expect -1901 :(<br/>
 The application intents to represent some dates using java.util.Date but fails to do so for dates before year 0 (1970 years before unix epoch). The application display those dates in the terminal.<br/>
 <br/>
 For some more informations on java.util.Date you may have a look here : https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/<br/>
+<br/>
+My advice : never use that java.util.Date.<br/>
